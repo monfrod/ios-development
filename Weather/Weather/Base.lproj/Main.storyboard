@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbN-8g-yGN">
+                                <rect key="frame" x="117" y="435.66666666666669" width="180" height="35"/>
+                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Посмотреть погоду"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="ufC-u4-7kb">
+                                <rect key="frame" x="27" y="149" width="359" height="267"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Здесь будет показана погода" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRK-7N-F41">
+                                <rect key="frame" x="62" y="93" width="269" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ufC-u4-7kb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" placeholder="YES" id="3zU-pW-4sk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kRK-7N-F41" secondAttribute="bottom" constant="678" id="BEW-ZA-8zT"/>
+                            <constraint firstItem="bbN-8g-yGN" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="C0x-Jr-lAX"/>
+                            <constraint firstItem="kRK-7N-F41" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="D9g-KT-IYc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ufC-u4-7kb" secondAttribute="trailing" constant="28" id="Fm8-JF-Jjr"/>
+                            <constraint firstItem="bbN-8g-yGN" firstAttribute="top" secondItem="ufC-u4-7kb" secondAttribute="bottom" constant="60" placeholder="YES" id="L4n-fa-49M"/>
+                            <constraint firstItem="ufC-u4-7kb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="MtO-iD-hO7"/>
+                            <constraint firstItem="ufC-u4-7kb" firstAttribute="top" secondItem="kRK-7N-F41" secondAttribute="bottom" constant="71" placeholder="YES" id="Nfv-gN-Kln"/>
+                            <constraint firstItem="bbN-8g-yGN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="OdT-bX-iMn"/>
+                            <constraint firstItem="kRK-7N-F41" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="R4E-2d-cNC"/>
+                            <constraint firstItem="ufC-u4-7kb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SZR-E7-tyB"/>
+                            <constraint firstItem="ufC-u4-7kb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="105" id="Tyf-Uf-9K0"/>
+                            <constraint firstItem="bbN-8g-yGN" firstAttribute="top" secondItem="ufC-u4-7kb" secondAttribute="bottom" constant="51" placeholder="YES" id="UYD-Ht-5PT"/>
+                            <constraint firstItem="bbN-8g-yGN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.458015" id="V2p-GK-taj"/>
+                            <constraint firstItem="bbN-8g-yGN" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0410798" id="XHj-ct-6qA"/>
+                            <constraint firstItem="ufC-u4-7kb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YdN-Cb-Ooq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ufC-u4-7kb" secondAttribute="bottom" constant="446" id="cBN-rY-dpf"/>
+                            <constraint firstItem="kRK-7N-F41" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ex1-Ja-lvi"/>
+                            <constraint firstItem="kRK-7N-F41" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="eyj-aW-xNb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ex1-Ja-lvi"/>
+                                <exclude reference="D9g-KT-IYc"/>
+                                <exclude reference="YdN-Cb-Ooq"/>
+                                <exclude reference="SZR-E7-tyB"/>
+                                <exclude reference="3zU-pW-4sk"/>
+                                <exclude reference="Nfv-gN-Kln"/>
+                                <exclude reference="V2p-GK-taj"/>
+                                <exclude reference="XHj-ct-6qA"/>
+                                <exclude reference="L4n-fa-49M"/>
+                                <exclude reference="UYD-Ht-5PT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="GetWeatherButton" destination="bbN-8g-yGN" id="lOq-b0-eku"/>
+                        <outlet property="WeatherLabel" destination="kRK-7N-F41" id="pjs-df-21e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
