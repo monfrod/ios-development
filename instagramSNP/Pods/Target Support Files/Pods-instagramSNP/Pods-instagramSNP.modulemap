@@ -1,0 +1,6 @@
+framework module Pods_instagramSNP {
+  umbrella header "Pods-instagramSNP-umbrella.h"
+
+  export *
+  module * { export * }
+}

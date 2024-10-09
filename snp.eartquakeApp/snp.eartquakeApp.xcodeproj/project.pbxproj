@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		858758612CA1795A00193FAF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 858758602CA1795A00193FAF /* SnapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		858758422CA1787400193FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 858758232CA1787100193FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8587582A2CA1787100193FAF;
+			remoteInfo = snp.eartquakeApp;
+		};
+		8587584C2CA1787400193FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 858758232CA1787100193FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8587582A2CA1787100193FAF;
+			remoteInfo = snp.eartquakeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8587582B2CA1787100193FAF /* snp.eartquakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snp.eartquakeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858758412CA1787400193FAF /* snp.eartquakeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snp.eartquakeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8587584B2CA1787400193FAF /* snp.eartquakeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snp.eartquakeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		858758532CA1787400193FAF /* Exceptions for "snp.eartquakeApp" folder in "snp.eartquakeApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8587582A2CA1787100193FAF /* snp.eartquakeApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8587582D2CA1787100193FAF /* snp.eartquakeApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				858758532CA1787400193FAF /* Exceptions for "snp.eartquakeApp" folder in "snp.eartquakeApp" target */,
+			);
+			path = snp.eartquakeApp;
+			sourceTree = "<group>";
+		};
+		858758442CA1787400193FAF /* snp.eartquakeAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = snp.eartquakeAppTests;
+			sourceTree = "<group>";
+		};
+		8587584E2CA1787400193FAF /* snp.eartquakeAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = snp.eartquakeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858758282CA1787100193FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858758612CA1795A00193FAF /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8587583E2CA1787400193FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858758482CA1787400193FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858758222CA1787100193FAF = {
+			isa = PBXGroup;
+			children = (
+				8587582D2CA1787100193FAF /* snp.eartquakeApp */,
+				858758442CA1787400193FAF /* snp.eartquakeAppTests */,
+				8587584E2CA1787400193FAF /* snp.eartquakeAppUITests */,
+				8587582C2CA1787100193FAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8587582C2CA1787100193FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8587582B2CA1787100193FAF /* snp.eartquakeApp.app */,
+				858758412CA1787400193FAF /* snp.eartquakeAppTests.xctest */,
+				8587584B2CA1787400193FAF /* snp.eartquakeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8587582A2CA1787100193FAF /* snp.eartquakeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858758542CA1787400193FAF /* Build configuration list for PBXNativeTarget "snp.eartquakeApp" */;
+			buildPhases = (
+				858758272CA1787100193FAF /* Sources */,
+				858758282CA1787100193FAF /* Frameworks */,
+				858758292CA1787100193FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8587582D2CA1787100193FAF /* snp.eartquakeApp */,
+			);
+			name = snp.eartquakeApp;
+			packageProductDependencies = (
+				858758602CA1795A00193FAF /* SnapKit */,
+			);
+			productName = snp.eartquakeApp;
+			productReference = 8587582B2CA1787100193FAF /* snp.eartquakeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		858758402CA1787400193FAF /* snp.eartquakeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858758592CA1787400193FAF /* Build configuration list for PBXNativeTarget "snp.eartquakeAppTests" */;
+			buildPhases = (
+				8587583D2CA1787400193FAF /* Sources */,
+				8587583E2CA1787400193FAF /* Frameworks */,
+				8587583F2CA1787400193FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				858758432CA1787400193FAF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				858758442CA1787400193FAF /* snp.eartquakeAppTests */,
+			);
+			name = snp.eartquakeAppTests;
+			packageProductDependencies = (
+			);
+			productName = snp.eartquakeAppTests;
+			productReference = 858758412CA1787400193FAF /* snp.eartquakeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8587584A2CA1787400193FAF /* snp.eartquakeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8587585C2CA1787400193FAF /* Build configuration list for PBXNativeTarget "snp.eartquakeAppUITests" */;
+			buildPhases = (
+				858758472CA1787400193FAF /* Sources */,
+				858758482CA1787400193FAF /* Frameworks */,
+				858758492CA1787400193FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8587584D2CA1787400193FAF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8587584E2CA1787400193FAF /* snp.eartquakeAppUITests */,
+			);
+			name = snp.eartquakeAppUITests;
+			packageProductDependencies = (
+			);
+			productName = snp.eartquakeAppUITests;
+			productReference = 8587584B2CA1787400193FAF /* snp.eartquakeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858758232CA1787100193FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8587582A2CA1787100193FAF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					858758402CA1787400193FAF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8587582A2CA1787100193FAF;
+					};
+					8587584A2CA1787400193FAF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8587582A2CA1787100193FAF;
+					};
+				};
+			};
+			buildConfigurationList = 858758262CA1787100193FAF /* Build configuration list for PBXProject "snp.eartquakeApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 858758222CA1787100193FAF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8587585F2CA1795A00193FAF /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8587582C2CA1787100193FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8587582A2CA1787100193FAF /* snp.eartquakeApp */,
+				858758402CA1787400193FAF /* snp.eartquakeAppTests */,
+				8587584A2CA1787400193FAF /* snp.eartquakeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858758292CA1787100193FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8587583F2CA1787400193FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858758492CA1787400193FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858758272CA1787100193FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8587583D2CA1787400193FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858758472CA1787400193FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		858758432CA1787400193FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8587582A2CA1787100193FAF /* snp.eartquakeApp */;
+			targetProxy = 858758422CA1787400193FAF /* PBXContainerItemProxy */;
+		};
+		8587584D2CA1787400193FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8587582A2CA1787100193FAF /* snp.eartquakeApp */;
+			targetProxy = 8587584C2CA1787400193FAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		858758552CA1787400193FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7288VLMJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = snp.eartquakeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lalazov.yunus.snp-eartquakeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		858758562CA1787400193FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7288VLMJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = snp.eartquakeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lalazov.yunus.snp-eartquakeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		858758572CA1787400193FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		858758582CA1787400193FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8587585A2CA1787400193FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7288VLMJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lalazov.yunus.snp-eartquakeAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snp.eartquakeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snp.eartquakeApp";
+			};
+			name = Debug;
+		};
+		8587585B2CA1787400193FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7288VLMJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lalazov.yunus.snp-eartquakeAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snp.eartquakeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snp.eartquakeApp";
+			};
+			name = Release;
+		};
+		8587585D2CA1787400193FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7288VLMJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lalazov.yunus.snp-eartquakeAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snp.eartquakeApp;
+			};
+			name = Debug;
+		};
+		8587585E2CA1787400193FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G7288VLMJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lalazov.yunus.snp-eartquakeAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = snp.eartquakeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858758262CA1787100193FAF /* Build configuration list for PBXProject "snp.eartquakeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858758572CA1787400193FAF /* Debug */,
+				858758582CA1787400193FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858758542CA1787400193FAF /* Build configuration list for PBXNativeTarget "snp.eartquakeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858758552CA1787400193FAF /* Debug */,
+				858758562CA1787400193FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858758592CA1787400193FAF /* Build configuration list for PBXNativeTarget "snp.eartquakeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8587585A2CA1787400193FAF /* Debug */,
+				8587585B2CA1787400193FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8587585C2CA1787400193FAF /* Build configuration list for PBXNativeTarget "snp.eartquakeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8587585D2CA1787400193FAF /* Debug */,
+				8587585E2CA1787400193FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8587585F2CA1795A00193FAF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		858758602CA1795A00193FAF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8587585F2CA1795A00193FAF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 858758232CA1787100193FAF /* Project object */;
+}

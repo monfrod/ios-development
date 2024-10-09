@@ -11,7 +11,7 @@ import UIKit
 struct NewsManager {
     
     typealias CompletionHandler = (NewsData) -> Void
-    let newsAPI = "https://newsapi.org/v2/everything?from=2024-02-06&sortBy=publishedAt&apiKey=415b002b2faa49689878e12f5f4c2b01&q="
+    let newsAPI = "https://newsapi.org/v2/everything?from=2024-09-06&sortBy=publishedAt&apiKey=415b002b2faa49689878e12f5f4c2b01&q="
     func fetchNews(queryNews: String, completion: @escaping CompletionHandler){
         let urlString = "\(newsAPI)\(queryNews)"
         performRequest(urlString: urlString, completion: completion)

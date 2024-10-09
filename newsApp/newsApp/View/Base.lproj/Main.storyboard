@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oE5-1Q-4Kg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oE5-1Q-4Kg">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -40,7 +40,7 @@
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                                     <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="0Qf-WE-VP5">
                                                     <rect key="frame" x="188" y="6" width="197" height="128"/>
@@ -49,28 +49,16 @@
                                                         <constraint firstAttribute="width" constant="197" id="RZD-Fu-42e"/>
                                                     </constraints>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUg-FM-WEs">
-                                                    <rect key="frame" x="15" y="103" width="35" height="26"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="bookmark" catalog="system"/>
-                                                    <connections>
-                                                        <action selector="savedNews:" destination="riC-fz-xdz" eventType="touchUpInside" id="lzu-mL-s46"/>
-                                                    </connections>
-                                                </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="qUg-FM-WEs" firstAttribute="leading" secondItem="hie-9R-ggg" secondAttribute="leading" constant="15" id="6vn-XQ-9LV"/>
                                                 <constraint firstItem="nqo-q6-nWR" firstAttribute="leading" secondItem="hie-9R-ggg" secondAttribute="leadingMargin" id="9k8-sU-A33"/>
                                                 <constraint firstAttribute="trailing" secondItem="0Qf-WE-VP5" secondAttribute="trailing" constant="8" id="BaV-YW-fwu"/>
                                                 <constraint firstAttribute="bottom" secondItem="0Qf-WE-VP5" secondAttribute="bottom" constant="6" id="CP3-tC-zWY"/>
                                                 <constraint firstItem="0Qf-WE-VP5" firstAttribute="top" secondItem="hie-9R-ggg" secondAttribute="top" constant="6" id="IAq-Bi-fz8"/>
-                                                <constraint firstAttribute="bottom" secondItem="qUg-FM-WEs" secondAttribute="bottom" constant="11" id="O52-dM-eWH"/>
                                                 <constraint firstItem="0Qf-WE-VP5" firstAttribute="leading" secondItem="nqo-q6-nWR" secondAttribute="trailing" constant="8" symbolic="YES" id="P7A-z6-i7M"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="nqo-q6-nWR" secondAttribute="trailing" constant="193" id="cZF-gu-Txm"/>
                                                 <constraint firstItem="nqo-q6-nWR" firstAttribute="top" secondItem="hie-9R-ggg" secondAttribute="topMargin" id="jE9-nq-6i3"/>
-                                                <constraint firstItem="0Qf-WE-VP5" firstAttribute="leading" secondItem="qUg-FM-WEs" secondAttribute="trailing" constant="138" id="liE-71-FUg"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="nqo-q6-nWR" secondAttribute="bottom" constant="66" id="pMI-vQ-wIj"/>
-                                                <constraint firstItem="qUg-FM-WEs" firstAttribute="top" secondItem="nqo-q6-nWR" secondAttribute="bottom" constant="40" id="xWC-vs-beN"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
@@ -217,22 +205,14 @@
                                                         <constraint firstAttribute="height" constant="128" id="ZSj-A7-wSR"/>
                                                     </constraints>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIu-uN-xWt">
-                                                    <rect key="frame" x="35" y="105.66666666666667" width="15" height="34.333333333333329"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="bookmark" catalog="system"/>
-                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="Xqz-FB-vJq" secondAttribute="bottom" constant="6" id="DNJ-mU-cUK"/>
                                                 <constraint firstAttribute="trailing" secondItem="Xqz-FB-vJq" secondAttribute="trailing" constant="8" id="DTn-SX-Yo0"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="sx2-5d-SUO" secondAttribute="trailing" constant="193" id="DU6-60-JS7"/>
-                                                <constraint firstItem="Xqz-FB-vJq" firstAttribute="leading" secondItem="VIu-uN-xWt" secondAttribute="trailing" constant="138" id="FbV-WR-TNi"/>
                                                 <constraint firstItem="sx2-5d-SUO" firstAttribute="top" secondItem="sjq-7E-65E" secondAttribute="topMargin" id="GJz-Nn-7T8"/>
                                                 <constraint firstItem="sx2-5d-SUO" firstAttribute="leading" secondItem="sjq-7E-65E" secondAttribute="leadingMargin" id="IXC-DQ-2IK"/>
                                                 <constraint firstItem="Xqz-FB-vJq" firstAttribute="leading" secondItem="sx2-5d-SUO" secondAttribute="trailing" constant="8" symbolic="YES" id="IiV-sa-D0E"/>
-                                                <constraint firstItem="VIu-uN-xWt" firstAttribute="leading" secondItem="sjq-7E-65E" secondAttribute="leadingMargin" constant="15" id="M8N-1N-KIc"/>
-                                                <constraint firstItem="VIu-uN-xWt" firstAttribute="bottom" secondItem="sjq-7E-65E" secondAttribute="bottomMargin" constant="11" id="aOd-v9-cj6"/>
                                                 <constraint firstItem="Xqz-FB-vJq" firstAttribute="top" secondItem="sjq-7E-65E" secondAttribute="top" constant="6" id="bg8-ih-Ans"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="sx2-5d-SUO" secondAttribute="bottom" constant="66" id="nR7-OO-6MK"/>
                                             </constraints>
@@ -323,24 +303,16 @@
                                                         <constraint firstAttribute="width" constant="197" id="KHx-MT-6oL"/>
                                                     </constraints>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGa-Mj-XWJ">
-                                                    <rect key="frame" x="15.000000000000004" y="103" width="46.333333333333343" height="26"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="bookmark" catalog="system"/>
-                                                </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="IGa-Mj-XWJ" firstAttribute="top" secondItem="Tyc-yq-GLQ" secondAttribute="bottom" constant="40" id="6i4-o1-DTt"/>
                                                 <constraint firstItem="Ykn-VB-VRg" firstAttribute="top" secondItem="1ej-8i-Fd6" secondAttribute="top" constant="6" id="EHf-JF-kOg"/>
                                                 <constraint firstAttribute="trailing" secondItem="Ykn-VB-VRg" secondAttribute="trailing" constant="8" id="FAb-dW-6pT"/>
-                                                <constraint firstItem="IGa-Mj-XWJ" firstAttribute="leading" secondItem="1ej-8i-Fd6" secondAttribute="leading" constant="15" id="JGs-bo-sFz"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Tyc-yq-GLQ" secondAttribute="bottom" constant="66" id="OQw-z6-CGW"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="Tyc-yq-GLQ" secondAttribute="trailing" constant="193" id="aMw-ye-96q"/>
                                                 <constraint firstItem="Tyc-yq-GLQ" firstAttribute="leading" secondItem="1ej-8i-Fd6" secondAttribute="leadingMargin" id="eA9-I5-e1m"/>
                                                 <constraint firstItem="Ykn-VB-VRg" firstAttribute="leading" secondItem="Tyc-yq-GLQ" secondAttribute="trailing" constant="8" symbolic="YES" id="j2R-Og-gfh"/>
                                                 <constraint firstItem="Tyc-yq-GLQ" firstAttribute="top" secondItem="1ej-8i-Fd6" secondAttribute="topMargin" id="kMI-oC-Jwb"/>
                                                 <constraint firstAttribute="bottom" secondItem="Ykn-VB-VRg" secondAttribute="bottom" constant="6" id="rFz-lF-EmB"/>
-                                                <constraint firstAttribute="bottom" secondItem="IGa-Mj-XWJ" secondAttribute="bottom" constant="11" id="yh7-HW-1kt"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
